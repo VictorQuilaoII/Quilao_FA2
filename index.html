@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FA2 | Simple Calculator</title>
+  </head>
+  <body>
+    <h1>calcU</h1>
+    <p>This page is about a simple calculator: You type two numbers below and then select the arithmetic operator!</p>
+    <input type="text" id="myText1" value="Num 1" oninput="myFunction()">
+    <input type="text" id="myText2" value="Num 2" oninput="myFunction()"><br><br>
+    <button class="operator" id="add" onclick="myFunction('add')">+</button>
+    <button class="operator" id="subtract" onclick="myFunction('subtract')">-</button>
+    <button class="operator" id="multiply" onclick="myFunction('multiply')">*</button>
+    <button class="operator" id="divide" onclick="myFunction('divide')">÷</button>
+    <button class="operator" id="modulo" onclick="myFunction('modulo')">%</button>
+    <p id="answer">Results will be displayed here.</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
